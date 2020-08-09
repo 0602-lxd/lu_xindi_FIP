@@ -1,0 +1,55 @@
+@keyframes fadeInRightBig
+{
+	0%   {margin-left: 200%;}
+	100% {margin-left: 0;}
+}
+
+@keyframes fadeIn
+{
+	0%   {opacity:0;}
+	10%   {opacity:0.1;}
+	20%   {opacity:0.2;}
+	30%   {opacity:0.3;}
+	40%   {opacity:0.4;}
+	50%   {opacity:0.5;}
+	60%   {opacity:0.6;}
+	70%   {opacity:0.7;}
+	80%   {opacity:0.8;}
+	90%   {opacity:0.9;}
+	100% {margin-left: 1;}
+}
+
+
+.fadeInRightBig{
+	animation-name: fadeInRightBig;
+	animation-duration: 2s;
+	animation-timing-function: ease-out;
+	animation-delay: 0.5s;
+	animation-iteration-count: 1;
+	animation-fill-mode:forwards;
+}
+
+
+.fadeIn{
+	animation-name: fadeIn;
+	animation-duration: 2s;
+	animation-timing-function: linear;
+	animation-iteration-count: 1;
+	animation-direction: alternate;
+}
+
+
+@keyframes fadeInLeftBig
+{
+	0%   {margin-right: 200%;}
+	100% {margin-right: 0;}
+}
+
+.fadeInLeftBig{
+	animation-name: fadeInLeftBig;
+	animation-duration: 2s;
+	animation-timing-function: ease-out;
+	animation-delay: 0.5s;
+	animation-iteration-count: 1;
+	animation-fill-mode:forwards;
+}
